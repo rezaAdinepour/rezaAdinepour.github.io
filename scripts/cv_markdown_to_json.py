@@ -151,7 +151,7 @@ def extract_author_info(config):
             profiles.append({
                 "network": "Twitter",
                 "username": author.get('twitter'),
-                "url": f"https://twitter.com/{author.get('twitter')}"
+                "url": f"https://x.com/{author.get('twitter')}"
             })
         
         author_info['profiles'] = profiles
