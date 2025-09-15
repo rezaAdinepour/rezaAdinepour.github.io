@@ -7,20 +7,20 @@ author_profile: true
 * **Digital System Design Automation Laboratory** <br>Tehran, Iran
   * Job Description: Research Assistant
 
-* **<a href="https://d3h-group.com/" style="color: #0011DB; text-decoration: underline;"> D3H-Group</a>** <br> Al Maryah Island, Abu Dhabi, UAE
+* **<a href="https://d3h-group.com/" style="color: #0011DB"> D3H-Group</a>** <br> Al Maryah Island, Abu Dhabi, UAE
   * Job Description: Biomedical Signal Processing Developer
 
-* **<a href="https://www.linkedin.com/company/radan-electronics/" style="color: #0011DB; text-decoration: underline;"> Radan Electronic</a>** <br>Mashhad, Iran
+* **<a href="https://www.linkedin.com/company/radan-electronics/" style="color: #0011DB"> Radan Electronic</a>** <br>Mashhad, Iran
   * Job Description: Embedded Software Developer
 
-* **<a href="https://www.researchgate.net/lab/Integrated-Circuits-Design-Lab-Mohammad-Reza-Ashraf" style="color: #0011DB; text-decoration: underline;"> IC Laboratory</a>** <br>Shahrood, Iran
+* **<a href="https://www.researchgate.net/lab/Integrated-Circuits-Design-Lab-Mohammad-Reza-Ashraf" style="color: #0011DB"> IC Laboratory</a>** <br>Shahrood, Iran
   * Job Description: Head of The Hard Ware department on OAE Project
  
 
 
 ## Teaching Experience
 * **Invited Lecturer** - Amirkabir University of Technology (Tehran Polytechnic) <br>
-  * **CSE304: Operating System Lab**, <a href="https://github.com/aut-ce/CE304-OS-Lab" style="color: #0011DB; text-decoration: underline;">(Fall 2025)</a>
+  * **CSE304: Operating System Lab**, <a href="https://github.com/aut-ce/CE304-OS-Lab" style="color: #0011DB">(Fall 2025)</a>
   * **CSE112: Computer Architecture Lab**, <a href="https://github.com/aut-ce/CE208-CA-Lab" style="color: #0011DB; text-decoration: underline;">(Spring 2025)</a>
   * **CSE105: Logic Circuit Lab**, <a href="https://github.com/AUT-LCLab/Spring-2024/tree/main" style="color: #0011DB; text-decoration: underline;">(Spring 2024)</a>, <a href="https://github.com/AUT-LCLab/Fall-2023" style="color: #0011DB; text-decoration: underline;">(Fall 2023)</a>
 
