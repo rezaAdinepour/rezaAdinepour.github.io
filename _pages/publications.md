@@ -13,7 +13,7 @@ author_profile: true
 You can also find my articles on <a href="https://scholar.google.com/citations?hl=en&user=Udim880AAAAJ&view_op=list_works&gmla=AP6z3ObFKaIm8vNkYCRr3ziax4AvW5LfW0YU_ceqRSKjv29JRgqFGs7p7Bfrk_6hotzC5lBFW5up515lIUJxoVBr" style="color: #0011DB;">my Google Scholar profile</a>.
 
 
-## Research Experience
+<!-- ## Research Experience
 * **Real Time Embedded Face Recognition System** <br>
 **Research Assistant**, Supervisor: <a href="https://shahroodut.ac.ir/en/as/?id=S036" style="color: #0011DB;">Prof. Alireza Ahmadyfard</a>, Department of Electrical engineering, Shahrood University of Technology. <br>
    * _Studies and research focused on **LBP Features**_ <br>
@@ -24,4 +24,4 @@ You can also find my articles on <a href="https://scholar.google.com/citations?h
 * **Otoacoustic Emissions (<span style="color: #0011DB">IC Laboratory</span>)** <br>
 **Research Assistant**, Supervisor: <a href="https://shahroodut.ac.ir/en/as/?id=S817" style="color: #0011DB;">Dr. Mohammad Reza Ashraf</a>, Department of Electrical engineering, Shahrood University of Technology. <br>
    * _Studies and research focused on **Hard Ware of OAE’s**_ <br>
-   Otoacoustic emissions (OAEs) are widely used in universal newborn hearing screening programs. In this Research we are looking for design and implement of OAE device for   recognition hearing loss in childrens.
+   Otoacoustic emissions (OAEs) are widely used in universal newborn hearing screening programs. In this Research we are looking for design and implement of OAE device for   recognition hearing loss in childrens. -->
