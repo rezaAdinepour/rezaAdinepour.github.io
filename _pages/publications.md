@@ -5,9 +5,9 @@ permalink: /publications/
 author_profile: true
 ---
 
-- **Reza Adinepour** and Morteza Saheb Zamani. “RULFormer: An Energy-Eﬀicient FPGA Accelerator for Transformer-Based Remaining Useful Life Prediction” IEEE Transactions on Industrial Informatics Journals, 2026. IEEE, 2026.<br>
+- **Reza Adinepour** and Morteza Saheb Zamani. *“RULFormer: An Energy-Eﬀicient FPGA Accelerator for Transformer-Based Remaining Useful Life Prediction”* IEEE Transactions on Industrial Informatics Journals, 2026. IEEE, 2026.<br>
 
-- Shayan Naghizadeh, **Reza Adinepour** and Morteza Saheb Zamani. “Low-Precision POSIT Arithmetic for Spiking Neural Networks with Kahan Summation” The 11th International Conference on Signal Processing and Intelligent Systems <a href="https://icspis.org/" style="color: #0011DB;">(ICSPIS)</a>, 2025. IEEE, 2026.<br>
+- Shayan Naghizadeh, **Reza Adinepour** and Morteza Saheb Zamani. *“Low-Precision POSIT Arithmetic for Spiking Neural Networks with Kahan Summation”* The 11th International Conference on Signal Processing and Intelligent Systems <a href="https://icspis.org/" style="color: #0011DB;">(ICSPIS)</a>, 2025. IEEE, 2026.<br>
 
 
 You can also find my articles on <a href="https://scholar.google.com/citations?hl=en&user=Udim880AAAAJ&view_op=list_works&gmla=AP6z3ObFKaIm8vNkYCRr3ziax4AvW5LfW0YU_ceqRSKjv29JRgqFGs7p7Bfrk_6hotzC5lBFW5up515lIUJxoVBr" style="color: #0011DB;">my Google Scholar profile</a>.
