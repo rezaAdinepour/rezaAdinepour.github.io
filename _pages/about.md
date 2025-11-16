@@ -18,13 +18,26 @@ Currently, I am a **research assistant at Tehran Polytechnic University**, where
 
 
 **My Research Interests include:**
-- AI Hardware Accelerator
-- Reconfigurable Computing
-- Neuromorphic Computing
+<table>
+<tr>
+<td>
+
+- AI Hardware Accelerator  
+- Reconfigurable Computing  
+- Neuromorphic Computing  
 - Parallel and Distributed Systems
-- High Level Synthesis
-- Real-time and Embedded Systems
-- Cyber-Physical Systems
-- Machine Learning
+
+</td>
+<td>
+
+- High Level Synthesis  
+- Real-time and Embedded Systems  
+- Cyber-Physical Systems  
+- Machine Learning  
 - Deep Learning
+
+</td>
+</tr>
+</table>
+
 
