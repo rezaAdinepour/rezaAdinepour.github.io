@@ -6,31 +6,163 @@ author_profile: true
 ---
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
-
-{% include base_path %}
-
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
+  <div class="wordwrap">
+    You can also find my articles on <a href="https://scholar.google.com/citations?hl=en&user=Udim880AAAAJ&view_op=list_works&gmla=AP6z3ObFKaIm8vNkYCRr3ziax4AvW5LfW0YU_ceqRSKjv29JRgqFGs7p7Bfrk_6hotzC5lBFW5up515lIUJxoVBr" style="color: #0011DB;">my Google Scholar profile</a>. If you cannot access any of these articles, do not hesitate to contact me. 
+  .</div>
 {% endif %}
 
 
 
+<!-- Paper 1 -->
+<article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+
+  <h2 class="archive__item-title" itemprop="headline">
+    <a href="https://rezaadinepour.github.io/publication/ICEE2026-RUL-Transformer-Edge"
+       rel="Permalink" style="color: #0011DB;">
+      Remaining Useful Life Prediction Using Transformer Models on Edge Devices
+    </a>
+  </h2>
+
+  <b>R. Adinepour</b>, S. Naghizadeh and M.S. Zamani,
+  <i>“Remaining Useful Life Prediction Using Transformer Models on Edge Devices”</i>
+  The 34th International Conference on Electrical Engineering
+  <a href="https://iceeconf.ir/2026/en" rel="Permalink" style="color: #0011DB;">(ICEE)</a>, 2026. IEEE, 2026. (Under-Review)
+  <br />
+
+  <details>
+    <summary>BibTeX</summary>
+    <pre>
+@inproceedings{adinepour2026rul_edge_transformer,
+    author      = {Adinepour, Reza and Naghizadeh, Shayan and Saheb Zamani, Morteza},
+    title       = {Remaining Useful Life Prediction Using Transformer Models on Edge Devices},
+    booktitle   = {Proceedings of the 34th International Conference on Electrical Engineering (ICEE)},
+    year        = {2026},
+    organization= {IEEE},
+    note        = {Under review}
+}
+    </pre>
+  </details>
+
+  <a href="https://iceeconf.ir/2026/en" style="color: #0011DB;">
+    <i class="fas fa-fw fa-link zoom" aria-hidden="true"></i>
+  </a>
+
+  <!-- Update these when you have the actual PDF / repo links -->
+  <a href="https://rezaadinepour.github.io/publications/404" style="color: #0011DB;">
+    <i class="fas fa-fw fa-file-pdf zoom" aria-hidden="true"></i>
+  </a>
+
+  <a href="https://rezaadinepour.github.io/publications/404" style="color: #0011DB;">
+    <i class="fab fa-fw fa-github zoom" aria-hidden="true"></i>
+  </a>
+
+  <p class="archive__item-excerpt" itemprop="description"></p>
+
+</article>
+
+
+
+
+
+
+
+
+<!-- Paper 2 -->
+<article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+
+  <h2 class="archive__item-title" itemprop="headline">
+    <a href="https://rezaadinepour.github.io/publication/RULFormer2025Prediction"
+       rel="Permalink" style="color: #0011DB;">
+      RULFormer: An Energy-Eﬀicient FPGA Accelerator for Transformer-Based Remaining Useful Life Prediction
+    </a>
+  </h2>
+
+  <b>R. Adinepour</b> and M.S. Zamani, <i>“RULFormer: An Energy-Eﬀicient FPGA Accelerator for Transformer-Based Remaining Useful Life Prediction”</i>
+  IEEE Transactions on Computers Journals
+   <a href="https://www.computer.org/csdl/journal/tc" rel="Permalink" style="color: #0011DB;">(IES)</a>, 2026. IEEE, 2026. (Under-Review)
+  <br />
+
+  <details>
+    <summary>BibTeX</summary>
+    <pre>
+@article{adinepour2026rulformer,
+    author    = {Adinepour, Reza and Saheb Zamani, Morteza},
+    title     = {RULFormer: An Energy-Efficient FPGA Accelerator for Transformer-Based Remaining Useful Life Prediction},
+    journal   = {IEEE Transactions on Computers},
+    year      = {2026},
+    publisher = {IEEE},
+    note      = {Under review}
+}
+
+    </pre>
+  </details>
+
+  <a href="https://www.computer.org/csdl/journal/tc" style="color: #0011DB;">
+    <i class="fas fa-fw fa-link zoom" aria-hidden="true"></i>
+  </a>
+
+  <a href="https://rezaadinepour.github.io/publications/404" style="color: #0011DB;">
+    <i class="fas fa-fw fa-file-pdf zoom" aria-hidden="true"></i>
+  </a>
+
+  <a href="https://rezaadinepour.github.io/publications/404" style="color: #0011DB;">
+    <i class="fab fa-fw fa-github zoom" aria-hidden="true"></i>
+  </a>
+
+  <p class="archive__item-excerpt" itemprop="description"></p>
+
+</article>
+
+
+
+
+
+
+
+
+
+<!-- Paper 1 -->
+<article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+
+  <h2 class="archive__item-title" itemprop="headline">
+    <a href="https://rezaadinepour.github.io/publication/POSIT2025Kahan"
+       rel="Permalink" style="color: #0011DB;">
+      Low-Precision POSIT Arithmetic for Spiking Neural Networks with Kahan Summation
+    </a>
+  </h2>
+
+  S. Naghizadeh, <b>R. Adinepour</b> and M.S. Zamani, <i>“Low-Precision POSIT Arithmetic for Spiking Neural Networks with Kahan Summation”</i>
+  The 11th International Conference on Signal Processing and Intelligent Systems
+   <a href="https://icspis.org/" rel="Permalink" style="color: #0011DB;">(ICSPIS)</a>, 2025. IEEE, 2026.
+  <br />
+
+  <details>
+    <summary>BibTeX</summary>
+    <pre>
+@inproceedings{adinepour2025positSNN,
+    author    = {Naghizadeh, Shayan and Adinepour, Reza and Saheb Zamani, Morteza},
+    title     = {Low-Precision POSIT Arithmetic for Spiking Neural Networks with Kahan Summation},
+    booktitle = {Proceedings of the 11th International Conference on Signal Processing and Intelligent Systems (ICSPIS)},
+    year      = {2025},
+    publisher = {IEEE},
+    address   = {Mazandaran, Iran},
+    note      = {Under review}
+}
+    </pre>
+  </details>
+
+  <a href="https://icspis.org/" style="color: #0011DB;">
+    <i class="fas fa-fw fa-link zoom" aria-hidden="true"></i>
+  </a>
+
+  <a href="https://rezaadinepour.github.io/publications/404" style="color: #0011DB;">
+    <i class="fas fa-fw fa-file-pdf zoom" aria-hidden="true"></i>
+  </a>
+
+  <a href="https://rezaadinepour.github.io/publications/404" style="color: #0011DB;">
+    <i class="fab fa-fw fa-github zoom" aria-hidden="true"></i>
+  </a>
+
+  <p class="archive__item-excerpt" itemprop="description"></p>
+
+</article>
