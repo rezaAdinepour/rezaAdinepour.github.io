@@ -4,6 +4,7 @@ title: "Work experience"
 author_profile: true
 ---
 
+<!--
 * **Digital System Design Automation Laboratory** <br>Tehran, Iran
   * Job Description: Research Assistant
 
@@ -15,7 +16,7 @@ author_profile: true
 
 * **<a href="https://www.researchgate.net/lab/Integrated-Circuits-Design-Lab-Mohammad-Reza-Ashraf" style="color: #0011DB; text-decoration: underline;"> IC Laboratory</a>** <br>Shahrood, Iran
   * Job Description: Head of The Hard Ware department on OAE Project
- 
+-->
 
 
 ## Teaching Experience
