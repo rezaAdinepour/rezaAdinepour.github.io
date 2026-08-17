@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Reza Adinepour"
+title                    : "Reza Adinehpour"
 title_separator          : "-"
-name                     : &name "Reza Adinepour"
+name                     : &name "Reza Adinehpour"
 description              : &description "M.Sc student at Amirkabir University of Technology"
 url                      : https://rezaAdinepour.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -82,7 +82,7 @@ analytics:
 
 # Site Author
 author:            
-  name             : "Reza Adinepour"
+  name             : "Reza Adinehpour"
   avatar           : "my_avatar.JPG"
   bio              : "M.Sc student at Amirkabir University of Technology (Tehran Polytechnic)"
   location         : "Tehran, Iran"
@@ -104,7 +104,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "adinepour"
+  linkedin         : "adinehpour"
   orcid            : 
   pinterest        :
   soundcloud       :
