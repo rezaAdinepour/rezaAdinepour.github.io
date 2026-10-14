@@ -200,6 +200,20 @@ author_profile: true
 <div class="teaching-section">
   <h2 style="margin-bottom: 1.25rem;">Teaching Experience</h2>
 
+  <!-- University of Sussex -->
+  <div class="teaching-group">
+    <div class="teaching-group-title">
+      <i class="fas fa-university" style="color: #0011DB;"></i>
+      University of Sussex
+    </div>
+
+    <ul class="course-list">
+      <li class="course-item">
+        <strong>G5035: Compilers and Computer Architecture</strong> — Teaching Assistant
+      </li>
+    </ul>
+  </div>
+
   <!-- AUT Teaching -->
   <div class="teaching-group">
     <div class="teaching-group-title">
@@ -208,9 +222,6 @@ author_profile: true
     </div>
 
     <ul class="course-list">
-      <li class="course-item">
-        <strong>G5035: Compilers and Computer Architecture</strong>
-      </li>
       <li class="course-item">
         <strong>CSE304: Operating System Lab</strong> — <a href="https://github.com/aut-ce/CE304-OS-Lab" class="course-link" target="_blank" rel="noopener noreferrer">GitHub Repo</a> <span class="course-tag">Fall 2025</span>
       </li>
