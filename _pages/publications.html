@@ -5,190 +5,37 @@ permalink: /publications/
 author_profile: true
 ---
 
-<style>
-  .pub-header-banner {
-    background-color: #f8f9fa;
-    border: 1px solid #e9ecef;
-    border-left: 4px solid #0011DB;
-    padding: 0.85rem 1.25rem;
-    border-radius: 6px;
-    margin-bottom: 2rem;
-    font-size: 0.95rem;
-    color: #495057;
-  }
-
-  .pub-header-banner a {
-    color: #0011DB;
-    font-weight: 600;
-    text-decoration: underline;
-  }
-
-  .pub-list {
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-  }
-
-  .pub-card {
-    border: 1px solid #e2e8f0;
-    border-radius: 8px;
-    padding: 1.25rem 1.5rem;
-    background-color: #ffffff;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.04);
-    transition: all 0.2s ease-in-out;
-  }
-
-  .pub-card:hover {
-    border-color: #0011DB;
-    box-shadow: 0 4px 12px rgba(0, 17, 219, 0.08);
-  }
-
-  .pub-title {
-    font-size: 1.15rem;
-    font-weight: 700;
-    line-height: 1.4;
-    margin-top: 0;
-    margin-bottom: 0.5rem;
-  }
-
-  .pub-title a {
-    color: #1a202c !important;
-    text-decoration: none !important;
-    transition: color 0.2s ease;
-  }
-
-  .pub-card:hover .pub-title a {
-    color: #0011DB !important;
-  }
-
-  .pub-authors {
-    font-size: 0.95rem;
-    color: #4a5568;
-    margin-bottom: 0.4rem;
-  }
-
-  .pub-authors u b {
-    color: #0011DB;
-  }
-
-  .pub-venue {
-    font-size: 0.92rem;
-    color: #718096;
-    font-style: italic;
-    margin-bottom: 0.8rem;
-  }
-
-  .pub-actions {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    margin-top: 1rem;
-    padding-top: 0.75rem;
-    border-top: 1px dashed #edf2f7;
-  }
-
-  .pub-btn {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.35rem;
-    font-size: 0.8rem;
-    font-weight: 600;
-    color: #4a5568 !important;
-    background-color: #f8f9fa;
-    border: 1px solid #e2e8f0;
-    padding: 0.25rem 0.65rem;
-    border-radius: 6px;
-    text-decoration: none !important;
-    transition: all 0.15s ease-in-out;
-  }
-
-  .pub-btn:hover {
-    background-color: #0011DB;
-    color: #ffffff !important;
-    border-color: #0011DB;
-  }
-
-  .pub-bibtex-details {
-    margin-top: 0.75rem;
-    width: 100%;
-  }
-
-  .pub-bibtex-details summary {
-    font-size: 0.8rem;
-    font-weight: 600;
-    color: #4a5568;
-    cursor: pointer;
-    display: inline-flex;
-    align-items: center;
-    gap: 0.35rem;
-    background-color: #f8f9fa;
-    border: 1px solid #e2e8f0;
-    padding: 0.25rem 0.65rem;
-    border-radius: 6px;
-    user-select: none;
-    transition: all 0.15s ease-in-out;
-  }
-
-  .pub-bibtex-details summary:hover {
-    background-color: #0011DB;
-    color: #ffffff;
-    border-color: #0011DB;
-  }
-
-  .pub-bibtex-details pre {
-    margin-top: 0.5rem;
-    padding: 0.85rem 1rem;
-    background-color: #1e1e1e;
-    color: #d4d4d4;
-    border-radius: 6px;
-    font-size: 0.8rem;
-    overflow-x: auto;
-    line-height: 1.45;
-  }
-</style>
-
 {% if site.author.googlescholar %}
-  <div class="pub-header-banner">
-    <i class="fas fa-graduation-cap" style="margin-right: 0.4rem; color: #0011DB;"></i>
-    You can also find my publications on my <a href="https://scholar.google.com/citations?hl=en&user=Udim880AAAAJ&view_op=list_works&gmla=AP6z3ObFKaIm8vNkYCRr3ziax4AvW5LfW0YU_ceqRSKjv29JRgqFGs7p7Bfrk_6hotzC5lBFW5up515lIUJxoVBr" target="_blank" rel="noopener noreferrer">Google Scholar profile</a>. If you cannot access any of these papers, feel free to contact me.
-  </div>
+  <div class="wordwrap">
+    You can also find my articles on <a href="https://scholar.google.com/citations?hl=en&user=Udim880AAAAJ&view_op=list_works&gmla=AP6z3ObFKaIm8vNkYCRr3ziax4AvW5LfW0YU_ceqRSKjv29JRgqFGs7p7Bfrk_6hotzC5lBFW5up515lIUJxoVBr" style="color: #0011DB;">my Google Scholar profile</a>. If you cannot access any of these articles, do not hesitate to contact me. 
+  .</div>
 {% endif %}
 
-<div class="pub-list">
+<!-- Paper 2 -->
+<article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
 
-  <!-- Paper 2 -->
-  <article class="pub-card" itemscope itemtype="http://schema.org/CreativeWork">
-    <h2 class="pub-title" itemprop="headline">
-      <a href="https://rezaadinepour.github.io/publication/ICEE2026-RUL-Transformer-Edge" rel="Permalink">
-        Edge Deployment of Quantized Transformer Models for Remaining Useful Life Prediction
-      </a>
-    </h2>
+  <h2 class="archive__item-title" itemprop="headline">
+    <a href="https://rezaadinepour.github.io/publication/ICEE2026-RUL-Transformer-Edge"
+       rel="Permalink" style="color: #0011DB;">
+       Edge Deployment of Quantized Transformer Models for Remaining Useful Life Prediction
+    </a>
+  </h2>
 
-    <div class="pub-authors">
-      <u><b>R. Adinepour</b></u>, S. Naghizadeh and M.S. Zamani
-    </div>
+  <u><b>R. Adinepour</b></u>, S. Naghizadeh and M.S. Zamani,
+  <i>“Edge Deployment of Quantized Transformer Models for Remaining Useful Life Prediction,”</i>
+  <i>The 34th International Conference on Electrical Engineering (ICEE 2026)</i>,
+  IEEE, 2026, pp. 179--271.
+  <br />
+  DOI:
+  <a href="https://doi.org/10.1109/ICEE70628.2026.11710400"
+     rel="Permalink" style="color: #0011DB;">
+     10.1109/ICEE70628.2026.11710400
+  </a>
 
-    <div class="pub-venue">
-      The 34th International Conference on Electrical Engineering (ICEE 2026), IEEE, 2026, pp. 179--271.
-    </div>
-
-    <div class="pub-actions">
-      <a href="https://doi.org/10.1109/ICEE70628.2026.11710400" target="_blank" rel="noopener noreferrer" class="pub-btn">
-        <i class="fas fa-link"></i> DOI
-      </a>
-
-      <a href="https://rezaadinepour.github.io/publications/404" target="_blank" rel="noopener noreferrer" class="pub-btn">
-        <i class="fas fa-file-pdf"></i> PDF
-      </a>
-
-      <a href="https://rezaadinepour.github.io/publications/404" target="_blank" rel="noopener noreferrer" class="pub-btn">
-        <i class="fab fa-github"></i> Code
-      </a>
-
-      <details class="pub-bibtex-details">
-        <summary><i class="fas fa-quote-right"></i> BibTeX</summary>
-        <pre><code>@inproceedings{adinepour2026rul_edge_transformer,
+  <details>
+    <summary>BibTeX</summary>
+    <pre>
+@inproceedings{adinepour2026rul_edge_transformer,
     author      = {Adinepour, Reza and Naghizadeh, Shayan and Saheb Zamani, Morteza},
     title       = {Edge Deployment of Quantized Transformer Models for Remaining Useful Life Prediction},
     booktitle   = {Proceedings of the 34th International Conference on Electrical Engineering (ICEE)},
@@ -197,44 +44,56 @@ author_profile: true
     publisher   = {IEEE},
     address     = {Tehran, Iran},
     doi         = {10.1109/ICEE70628.2026.11710400}
-}</code></pre>
-      </details>
-    </div>
-  </article>
+}
+    </pre>
+  </details>
+
+  <a href="https://doi.org/10.1109/ICEE70628.2026.11710400" style="color: #0011DB;">
+    <i class="fas fa-fw fa-link zoom" aria-hidden="true"></i>
+  </a>
+
+  <a href="https://rezaadinepour.github.io/publications/404" style="color: #0011DB;">
+    <i class="fas fa-fw fa-file-pdf zoom" aria-hidden="true"></i>
+  </a>
+
+  <a href="https://rezaadinepour.github.io/publications/404" style="color: #0011DB;">
+    <i class="fab fa-fw fa-github zoom" aria-hidden="true"></i>
+  </a>
+
+  <p class="archive__item-excerpt" itemprop="description"></p>
+
+</article>
 
 
-  <!-- Paper 1 -->
-  <article class="pub-card" itemscope itemtype="http://schema.org/CreativeWork">
-    <h2 class="pub-title" itemprop="headline">
-      <a href="https://rezaadinepour.github.io/publication/POSIT2025Kahan" rel="Permalink">
-        Low-Precision POSIT Arithmetic for Spiking Neural Networks with Kahan Summation
-      </a>
-    </h2>
+<!-- Paper 1 -->
+<article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
 
-    <div class="pub-authors">
-      S. Naghizadeh, <u><b>R. Adinepour</b></u> and M.S. Zamani
-    </div>
+  <h2 class="archive__item-title" itemprop="headline">
+    <a href="https://rezaadinepour.github.io/publication/POSIT2025Kahan"
+       rel="Permalink" style="color: #0011DB;">
+      Low-Precision POSIT Arithmetic for Spiking Neural Networks with Kahan Summation
+    </a>
+  </h2>
 
-    <div class="pub-venue">
-      The 11th International Conference on Signal Processing and Intelligent Systems (ICSPIS 2025), IEEE, 2025, pp. 56--60.
-    </div>
+  S. Naghizadeh, <u><b>R. Adinepour</b></u> and M.S. Zamani,
+  <i>“Low-Precision POSIT Arithmetic for Spiking Neural Networks with Kahan Summation,”</i>
+  <i>The 11th International Conference on Signal Processing and Intelligent Systems (ICSPIS 2025)</i>,
+  IEEE, 2025, pp. 56--60.
+  <br />
+  DOI:
+  <a href="https://doi.org/10.1109/ICSPIS68676.2025.11551780"
+     rel="Permalink" style="color: #0011DB;">
+     10.1109/ICSPIS68676.2025.11551780
+  </a>
 
-    <div class="pub-actions">
-      <a href="https://doi.org/10.1109/ICSPIS68676.2025.11551780" target="_blank" rel="noopener noreferrer" class="pub-btn">
-        <i class="fas fa-link"></i> DOI
-      </a>
+</article>
 
-      <a href="https://github.com/rezaAdinepour/rezaAdinepour.github.io/blob/master/files/Publications/Low-Precision%20POSIT%20Arithmetic%20for%20Spiking%20Neural%20Networks%20with%20Kahan%20Summation.pdf" target="_blank" rel="noopener noreferrer" class="pub-btn">
-        <i class="fas fa-file-pdf"></i> PDF
-      </a>
+</article>
 
-      <a href="https://rezaadinepour.github.io/publications/404" target="_blank" rel="noopener noreferrer" class="pub-btn">
-        <i class="fab fa-github"></i> Code
-      </a>
-
-      <details class="pub-bibtex-details">
-        <summary><i class="fas fa-quote-right"></i> BibTeX</summary>
-        <pre><code>@inproceedings{naghizadeh2025low,
+  <details>
+    <summary>BibTeX</summary>
+    <pre>
+@inproceedings{naghizadeh2025low,
     title     = {Low-Precision POSIT Arithmetic for Spiking Neural Networks with Kahan Summation},
     author    = {Naghizadeh, Shayan and Adinepour, Reza and Zamani, Morteza Saheb},
     booktitle = {2025 11th International Conference on Signal Processing and Intelligent Systems (ICSPIS)},
@@ -242,9 +101,22 @@ author_profile: true
     year      = {2025},
     organization = {IEEE},
     doi       = {10.1109/ICSPIS68676.2025.11551780}
-}</code></pre>
-      </details>
-    </div>
-  </article>
+}
+    </pre>
+  </details>
 
-</div>
+  <a href="https://doi.org/10.1109/ICSPIS68676.2025.11551780" style="color: #0011DB;">
+    <i class="fas fa-fw fa-link zoom" aria-hidden="true"></i>
+  </a>
+
+  <a href="https://github.com/rezaAdinepour/rezaAdinepour.github.io/blob/master/files/Publications/Low-Precision%20POSIT%20Arithmetic%20for%20Spiking%20Neural%20Networks%20with%20Kahan%20Summation.pdf" style="color: #0011DB;">
+    <i class="fas fa-fw fa-file-pdf zoom" aria-hidden="true"></i>
+  </a>
+
+  <a href="https://rezaadinepour.github.io/publications/404" style="color: #0011DB;">
+    <i class="fab fa-fw fa-github zoom" aria-hidden="true"></i>
+  </a>
+
+  <p class="archive__item-excerpt" itemprop="description"></p>
+
+</article>
