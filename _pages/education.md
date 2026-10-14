@@ -9,8 +9,7 @@ author_profile: true
 * **Ph.D. in Computer Science** <br>
 **University of Sussex, Brighton, UK** <br>
   * Thesis: _POSIT-Enabled EventProp Training and Implementing of Spiking Neural Networks on a Programmable RISC-V FPGA SoC_ <br>
-  * Supervisor: <a href="https://scholar.google.com/citations?user=asUiHlIAAAAJ&hl=en" style="color: #0011DB;"> Prof. James Knight</a> <br>
-  * GPA: 3.4/4
+  * Supervisor: <a href="https://scholar.google.com/citations?user=asUiHlIAAAAJ&hl=en" style="color: #0011DB;"> Prof. James Knight</a> & Advisor: <a href="https://scholar.google.com/citations?user=W3T-i5AAAAAJ&hl=en" style="color: #0011DB;"> Prof. Thomas Nowotny</a><br>
 
 ## Graduation
 * **M.Sc. in Computer Engineering** <br>
