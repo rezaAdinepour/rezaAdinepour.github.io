@@ -18,7 +18,7 @@
     var darkTheme = savedTheme === 'dark' || ((!savedTheme || savedTheme === 'system') && window.matchMedia('(prefers-color-scheme: dark)').matches);
     document.documentElement.dataset.theme = darkTheme ? 'dark' : 'light';
   } catch (error) {
-    // The site remains readable when browser storage is unavailable.
+    /* The site remains readable when browser storage is unavailable. */
   }
 </script>
 
