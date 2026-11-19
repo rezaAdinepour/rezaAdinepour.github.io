@@ -4,8 +4,12 @@
 
 // Determine the expected state of the theme toggle, which can be "dark", "light", or
 // "system". Default is "system".
+let readStoredTheme = () => {
+  try { return localStorage.getItem("theme"); } catch (error) { return null; }
+};
+
 let determineThemeSetting = () => {
-  let themeSetting = localStorage.getItem("theme");
+  let themeSetting = readStoredTheme();
   return (themeSetting != "dark" && themeSetting != "light" && themeSetting != "system") ? "system" : themeSetting;
 };
 
@@ -16,7 +20,7 @@ let determineComputedTheme = () => {
   if (themeSetting != "system") {
     return themeSetting;
   }
-  return (userPref && userPref("(prefers-color-scheme: dark)").matches) ? "dark" : "light";
+  return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
 };
 
 // detect OS/browser preference
@@ -24,11 +28,13 @@ const browserPref = window.matchMedia('(prefers-color-scheme: dark)').matches ? 
 
 // Set the theme on page load or when explicitly called
 let setTheme = (theme) => {
-  const use_theme =
+  const preference =
     theme ||
-    localStorage.getItem("theme") ||
+    readStoredTheme() ||
     $("html").attr("data-theme") ||
     browserPref;
+  const use_theme = preference === "system" ?
+    (window.matchMedia('(prefers-color-scheme: dark)').matches ? "dark" : "light") : preference;
 
   if (use_theme === "dark") {
     $("html").attr("data-theme", "dark");
@@ -37,13 +43,17 @@ let setTheme = (theme) => {
     $("html").removeAttr("data-theme");
     $("#theme-icon").removeClass("fa-moon").addClass("fa-sun");
   }
+  $("#theme-toggle").attr({
+    "aria-pressed": String(use_theme === "dark"),
+    "aria-label": use_theme === "dark" ? "Switch to light theme" : "Switch to dark theme"
+  });
 };
 
 // Toggle the theme manually
 var toggleTheme = () => {
   const current_theme = $("html").attr("data-theme");
   const new_theme = current_theme === "dark" ? "light" : "dark";
-  localStorage.setItem("theme", new_theme);
+  try { localStorage.setItem("theme", new_theme); } catch (error) { /* Storage may be disabled. */ }
   setTheme(new_theme);
 };
 
@@ -86,15 +96,11 @@ if (plotlyElements.length > 0) {
    ========================================================================== */
 
 $(document).ready(function () {
-  // SCSS SETTINGS - These should be the same as the settings in the relevant files 
-  const scssLarge = 925;          // pixels, from /_sass/_themes.scss
-  const scssMastheadHeight = 70;  // pixels, from the current theme (e.g., /_sass/theme/_default.scss)
-
   // If the user hasn't chosen a theme, follow the OS preference
   setTheme();
   window.matchMedia('(prefers-color-scheme: dark)')
         .addEventListener("change", (e) => {
-          if (!localStorage.getItem("theme")) {
+          if (!readStoredTheme() || readStoredTheme() === 'system') {
             setTheme(e.matches ? "dark" : "light");
           }
         });
@@ -102,41 +108,24 @@ $(document).ready(function () {
   // Enable the theme toggle
   $('#theme-toggle').on('click', toggleTheme);
 
-  // Enable the sticky footer
-  var bumpIt = function () {
-    $("body").css("margin-bottom", $(".page__footer").outerHeight(true));
-  }
-  $(window).resize(function () {
-    didResize = true;
-  });
-  setInterval(function () {
-    if (didResize) {
-      didResize = false;
-      bumpIt();
-    }}, 250);
-  var didResize = false;
-  bumpIt();
-
   // FitVids init
   fitvids();
 
-  // Follow menu drop down
+  // Profile links are collapsible on small screens.
   $(".author__urls-wrapper button").on("click", function () {
-    $(".author__urls").fadeToggle("fast", function () { });
-    $(".author__urls-wrapper button").toggleClass("open");
+    const open = $(this).closest('.author__urls-wrapper').toggleClass('is-open').hasClass('is-open');
+    $(this).attr('aria-expanded', String(open));
   });
 
-  // Restore the follow menu if toggled on a window resize
-  jQuery(window).on('resize', function () {
-    if ($('.author__urls.social-icons').css('display') == 'none' && $(window).width() >= scssLarge) {
-      $(".author__urls").css('display', 'block')
+  $(document).on('keydown', function (event) {
+    if (event.key === 'Escape' && $('.author__urls-wrapper').hasClass('is-open')) {
+      $('.author__urls-wrapper').removeClass('is-open');
+      $('.author__urls-wrapper button').attr('aria-expanded', 'false').trigger('focus');
     }
   });
 
-  // Init smooth scroll, this needs to be slightly more than then fixed masthead height
-  $("a").smoothScroll({
-    offset: -scssMastheadHeight,
-    preventDefault: false,
-  });
+  if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    $("a").smoothScroll({ offset: -24, preventDefault: false });
+  }
 
 });

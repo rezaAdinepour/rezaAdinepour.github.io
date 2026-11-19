@@ -13,6 +13,13 @@
 
 <script>
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  try {
+    var savedTheme = localStorage.getItem('theme');
+    var darkTheme = savedTheme === 'dark' || ((!savedTheme || savedTheme === 'system') && window.matchMedia('(prefers-color-scheme: dark)').matches);
+    document.documentElement.dataset.theme = darkTheme ? 'dark' : 'light';
+  } catch (error) {
+    // The site remains readable when browser storage is unavailable.
+  }
 </script>
 
 <!-- For all browsers -->
