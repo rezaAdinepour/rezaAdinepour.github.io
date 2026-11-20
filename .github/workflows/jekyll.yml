@@ -42,14 +42,6 @@ jobs:
         run: npm install --no-package-lock --ignore-scripts
       - name: Build JavaScript
         run: npm run build:js
-      - name: Use GitHub Actions as the Pages source
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          current_type=$(gh api "repos/$GITHUB_REPOSITORY/pages" --jq '.build_type')
-          if [ "$current_type" != "workflow" ]; then
-            gh api --method PUT "repos/$GITHUB_REPOSITORY/pages" -f build_type=workflow --silent
-          fi
       - name: Configure GitHub Pages
         id: pages
         uses: actions/configure-pages@v6.0.0

@@ -73,6 +73,6 @@ bundle exec jekyll serve -H 0.0.0.0
 JEKYLL_ENV=production bundle exec jekyll build
 ```
 
-انتشار Jekyll 4 از طریق `.github/workflows/jekyll.yml` انجام می‌شود. این workflow حالت Pages را به GitHub Actions منتقل می‌کند؛ اگر تنظیمات یا مجوزهای مخزن مانع شدند، در **Settings → Pages → Build and deployment → Source** گزینهٔ **GitHub Actions** را انتخاب کن و workflow را دوباره اجرا کن. نسخهٔ جدید Sass به Jekyll 4 نیاز دارد و سازندهٔ قدیمی GitHub Pages مناسب آن نیست.
+انتشار Jekyll 4 از طریق `.github/workflows/jekyll.yml` انجام می‌شود. برای اولین انتشار، در **Settings → Pages → Build and deployment → Source** گزینهٔ **GitHub Actions** را انتخاب کن. سپس workflow را اجرا کن. نسخهٔ جدید Sass به Jekyll 4 نیاز دارد و سازندهٔ قدیمی GitHub Pages مناسب آن نیست.
 
 اطلاعات نسخهٔ پایه و منابع مهاجرت در `UPSTREAM.md` ثبت شده‌اند.
