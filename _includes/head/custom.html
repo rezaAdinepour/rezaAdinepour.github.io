@@ -3,15 +3,15 @@
 <!-- start custom head snippets -->
 
 <!-- Support for jQuery, this needs to be first so that it has a chance to load. -->
-<script src="{{ base_path }}/assets/js/jquery.min.js"></script>
+<script src="{{ base_path }}/assets/js/jquery.min.js?v={{ site.time | date: '%Y%m%d%H%M%S' }}"></script>
 
 <!-- Support for Academicons -->
 <link rel="preload" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"></noscript>
 
 <!-- Support for Font Awesome -->
- <link rel="preload" href="{{ base_path }}/assets/css/fontawesome.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="{{ base_path }}/assets/css/fontawesome.css"></noscript>
+ <link rel="preload" href="{{ base_path }}/assets/css/fontawesome.css?v={{ site.time | date: '%Y%m%d%H%M%S' }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="{{ base_path }}/assets/css/fontawesome.css?v={{ site.time | date: '%Y%m%d%H%M%S' }}"></noscript>
 
 <!-- favicon from https://commons.wikimedia.org/wiki/File:OOjs_UI_icon_academic-progressive.svg -->
 <link rel="apple-touch-icon" sizes="180x180" href="{{ base_path }}/images/apple-touch-icon-180x180.png"/>

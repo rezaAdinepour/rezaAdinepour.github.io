@@ -11,3 +11,5 @@ Personal facts were migrated from the pre-migration site and `files/Reza_s_CV_Oc
 Template demonstration records are retained under `_drafts/examples/` and are not published. Publication January 1 date fields are sorting markers for a known year; the site displays only the publication year. Teaching date fields sort known terms and do not assert a particular class starting day. Existing website dates take precedence where the CV differs (notably Circuit Theory); confirm these when updating your CV.
 
 Jekyll 4 deployment uses `.github/workflows/jekyll.yml`, with the same Ruby 3.2 family as the template Dockerfile and the verified local environment. GitHub Pages must use **GitHub Actions** as its source. Maintainer moderation and automatic scraping/commit workflows are not enabled on this personal site.
+
+Critical stylesheet and JavaScript URLs carry a per-build version. This prevents cached files from the previous design being paired with the new HTML. `scripts/check-assets.cjs` verifies the emitted URLs and files before the deployment artifact is uploaded.
