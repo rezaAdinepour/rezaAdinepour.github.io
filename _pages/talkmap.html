@@ -5,5 +5,10 @@ permalink: /talkmap.html
 author_profile: true
 ---
 
-<p>This map is generated from a Jupyter Notebook file in <a href="https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb">talkmap.ipynb</a>, which mines the location fields in the .md files in _talks/.</p>
-<iframe src="/talkmap/map.html" height="700" width="850" style="border:none;"></iframe>
+{% if site.talks.size > 0 %}
+<p>Locations of talks and presentations. <a href="/talks/">View all talks</a>.</p>
+<iframe src="/talkmap/map.html" title="Talk locations" height="700" width="100%" style="border:none;"></iframe>
+{% else %}
+<p>No talk locations have been added yet. The map will appear here after confirmed talks and their location data are added.</p>
+<p><a href="/talks/">Talks and presentations</a></p>
+{% endif %}

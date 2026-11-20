@@ -3,121 +3,33 @@ layout: archive
 title: "Publications"
 permalink: /publications/
 author_profile: true
+redirect_from:
+  - /publicationsss/
 ---
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">
-    You can also find my articles on <a href="https://scholar.google.com/citations?hl=en&user=Udim880AAAAJ&view_op=list_works&gmla=AP6z3ObFKaIm8vNkYCRr3ziax4AvW5LfW0YU_ceqRSKjv29JRgqFGs7p7Bfrk_6hotzC5lBFW5up515lIUJxoVBr">my Google Scholar profile</a>. If you cannot access any of these articles, do not hesitate to contact me.
-  .</div>
+  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>. If you cannot access any of these articles, do not hesitate to contact me.</div>
 {% endif %}
 
-<!-- Paper 2 -->
-<article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+{% include base_path %}
 
-  <h2 class="archive__item-title" itemprop="headline">
-    <a href="https://rezaadinepour.github.io/publication/ICEE2026-RUL-Transformer-Edge"
-       rel="Permalink">
-       Edge Deployment of Quantized Transformer Models for Remaining Useful Life Prediction
-    </a>
-  </h2>
-
-  <u><b>R. Adinepour</b></u>, S. Naghizadeh and M.S. Zamani,
-  <i>“Edge Deployment of Quantized Transformer Models for Remaining Useful Life Prediction,”</i>
-  <i>The 34th International Conference on Electrical Engineering (ICEE 2026)</i>,
-  IEEE, 2026, pp. 179--271.
-  <br />
-  DOI:
-  <a href="https://doi.org/10.1109/ICEE70628.2026.11710400"
-     rel="Permalink">
-     10.1109/ICEE70628.2026.11710400
-  </a>
-
-  <details>
-    <summary>BibTeX</summary>
-    <pre>
-@inproceedings{adinepour2026rul_edge_transformer,
-    author      = {Adinepour, Reza and Naghizadeh, Shayan and Saheb Zamani, Morteza},
-    title       = {Edge Deployment of Quantized Transformer Models for Remaining Useful Life Prediction},
-    booktitle   = {Proceedings of the 34th International Conference on Electrical Engineering (ICEE)},
-    pages       = {179--271},
-    year        = {2026},
-    publisher   = {IEEE},
-    address     = {Tehran, Iran},
-    doi         = {10.1109/ICEE70628.2026.11710400}
-}
-    </pre>
-  </details>
-
-  <div class="publication-links">
-  <a aria-label="Read the publication" href="https://doi.org/10.1109/ICEE70628.2026.11710400">
-    <i class="fas fa-fw fa-link zoom" aria-hidden="true"></i>
-  </a>
-
-  <a aria-label="View the publication PDF" href="https://rezaadinepour.github.io/publications/404">
-    <i class="fas fa-fw fa-file-pdf zoom" aria-hidden="true"></i>
-  </a>
-
-  <a aria-label="View the publication code" href="https://rezaadinepour.github.io/publications/404">
-    <i class="fab fa-fw fa-github zoom" aria-hidden="true"></i>
-  </a>
-  </div>
-
-  <p class="archive__item-excerpt" itemprop="description"></p>
-
-</article>
-
-
-<!-- Paper 1 -->
-<article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-
-  <h2 class="archive__item-title" itemprop="headline">
-    <a href="https://rezaadinepour.github.io/publication/POSIT2025Kahan"
-       rel="Permalink">
-      Low-Precision POSIT Arithmetic for Spiking Neural Networks with Kahan Summation
-    </a>
-  </h2>
-
-  S. Naghizadeh, <u><b>R. Adinepour</b></u> and M.S. Zamani,
-  <i>“Low-Precision POSIT Arithmetic for Spiking Neural Networks with Kahan Summation,”</i>
-  <i>The 11th International Conference on Signal Processing and Intelligent Systems (ICSPIS 2025)</i>,
-  IEEE, 2025, pp. 56--60.
-  <br />
-  DOI:
-  <a href="https://doi.org/10.1109/ICSPIS68676.2025.11551780"
-     rel="Permalink">
-     10.1109/ICSPIS68676.2025.11551780
-  </a>
-
-
-  <details>
-    <summary>BibTeX</summary>
-    <pre>
-@inproceedings{naghizadeh2025low,
-    title     = {Low-Precision POSIT Arithmetic for Spiking Neural Networks with Kahan Summation},
-    author    = {Naghizadeh, Shayan and Adinepour, Reza and Zamani, Morteza Saheb},
-    booktitle = {2025 11th International Conference on Signal Processing and Intelligent Systems (ICSPIS)},
-    pages     = {56--60},
-    year      = {2025},
-    organization = {IEEE},
-    doi       = {10.1109/ICSPIS68676.2025.11551780}
-}
-    </pre>
-  </details>
-
-  <div class="publication-links">
-  <a aria-label="Read the publication" href="https://doi.org/10.1109/ICSPIS68676.2025.11551780">
-    <i class="fas fa-fw fa-link zoom" aria-hidden="true"></i>
-  </a>
-
-  <a aria-label="View the publication PDF" href="https://github.com/rezaAdinepour/rezaAdinepour.github.io/blob/master/files/Publications/Low-Precision%20POSIT%20Arithmetic%20for%20Spiking%20Neural%20Networks%20with%20Kahan%20Summation.pdf">
-    <i class="fas fa-fw fa-file-pdf zoom" aria-hidden="true"></i>
-  </a>
-
-  <a aria-label="View the publication code" href="https://rezaadinepour.github.io/publications/404">
-    <i class="fab fa-fw fa-github zoom" aria-hidden="true"></i>
-  </a>
-  </div>
-
-  <p class="archive__item-excerpt" itemprop="description"></p>
-
-</article>
+<!-- New style rendering if publication categories are defined -->
+{% if site.publication_category %}
+  {% for category in site.publication_category  %}
+    {% assign title_shown = false %}
+    {% for post in site.publications reversed %}
+      {% if post.category != category[0] %}
+        {% continue %}
+      {% endif %}
+      {% unless title_shown %}
+        <h2>{{ category[1].title }}</h2><hr />
+        {% assign title_shown = true %}
+      {% endunless %}
+      {% include archive-single.html %}
+    {% endfor %}
+  {% endfor %}
+{% else %}
+  {% for post in site.publications reversed %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% endif %}

@@ -1,0 +1,27 @@
+---
+layout: archive
+title: "Teaching"
+permalink: /teaching/
+author_profile: true
+---
+
+{% include base_path %}
+
+<h2>University teaching</h2>
+
+{% for post in site.teaching reversed %}
+  {% if post.venue != 'Private Tutoring' %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
+
+<h2>Private tutoring</h2>
+
+{% for post in site.teaching %}
+  {% if post.venue == 'Private Tutoring' %}
+<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+
+<p>{{ post.location }}</p>
+
+  {% endif %}
+{% endfor %}

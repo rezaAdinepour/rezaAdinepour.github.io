@@ -1,20 +1,22 @@
-# main links links
+# Main navigation; the default menu automatically groups links on smaller screens.
 main:
-  - title: "Education"
-    url: /education/
-
-
-  - title: "Publications"
-    url: /publications/
-  
-
-  - title: "Work experience"
-    url: /experience/
-
-
-  - title: "CV"
-    url: /cv/
-
-
-  - title: "Contact"
-    url: /contact/
+- title: Education
+  url: /education/
+- title: Publications
+  url: /publications/
+- title: Talks
+  url: /talks/
+- title: Teaching
+  url: /teaching/
+- title: Portfolio
+  url: /portfolio/
+- title: Work experience
+  url: /experience/
+- title: Blog Posts
+  url: /year-archive/
+- title: CV
+  url: /cv/
+- title: Contact
+  url: /contact/
+- title: Guide
+  url: /markdown/

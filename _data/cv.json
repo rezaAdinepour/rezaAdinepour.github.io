@@ -1,152 +1,357 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
-    "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "name": "Reza Adinehpour",
+    "label": "Ph.D. Candidate in Computer Science",
+    "email": "R.Adinehpour@sussex.ac.uk",
+    "phone": "+44 73 9966 2673",
+    "url": "https://rezaadinepour.github.io",
+    "summary": "Ph.D. Candidate in Computer Science at Sussex AI, University of Sussex. Research in POSIT-enabled EventProp training and spiking neural networks on programmable RISC-V FPGA SoCs.",
     "location": {
-      "address": "",
-      "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
-      "region": ""
+      "city": "Brighton",
+      "region": "England",
+      "countryCode": "GB"
     },
     "profiles": [
       {
         "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-      },
-      {
-        "network": "ORCID",
-        "username": "",
-        "url": "http://orcid.org/yourorcidurl"
+        "url": "https://scholar.google.com/citations?hl=en&user=Udim880AAAAJ&view_op=list_works&gmla=AP6z3ObFKaIm8vNkYCRr3ziax4AvW5LfW0YU_ceqRSKjv29JRgqFGs7p7Bfrk_6hotzC5lBFW5up515lIUJxoVBr"
       },
       {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "rezaAdinepour",
+        "url": "https://github.com/rezaAdinepour"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "adinehpour",
+        "url": "https://www.linkedin.com/in/adinehpour"
+      },
+      {
+        "network": "ResearchGate",
+        "url": "https://www.researchgate.net/profile/Reza-Adinepour-2"
       }
     ]
   },
-  "work": [],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
-      "gpa": null,
-      "courses": []
+      "institution": "University of Sussex",
+      "area": "Computer Science",
+      "studyType": "Ph.D.",
+      "startDate": "2026-09",
+      "endDate": "",
+      "location": "Brighton, UK",
+      "thesis": "POSIT-Enabled EventProp Training and Implementing of Spiking Neural Networks on a Programmable RISC-V FPGA SoC",
+      "supervisor": "Prof. James Knight",
+      "supervisorUrl": "https://scholar.google.com/citations?user=asUiHlIAAAAJ&hl=en",
+      "advisor": "Prof. Thomas Nowotny",
+      "advisorUrl": "https://scholar.google.com/citations?user=W3T-i5AAAAAJ&hl=en"
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
+      "institution": "Amirkabir University of Technology (Tehran Polytechnic)",
+      "area": "Computer Engineering",
+      "studyType": "M.Sc.",
+      "startDate": "2023-09",
+      "endDate": "2026-08",
+      "location": "Tehran, Iran",
+      "thesis": "FPGA-Based Hardware Acceleration of Remaining Useful Life Prediction of Rotating Machinery Using Transformer Neural Network",
+      "supervisor": "Prof. Morteza Saheb Zamani",
+      "supervisorUrl": "https://scholar.google.com/citations?user=qMmvqUwAAAAJ&hl=en",
+      "score": "3.4 / 4.0"
     },
     {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
-      "gpa": null,
-      "courses": []
+      "institution": "Shahrood University of Technology",
+      "area": "Electrical Engineering",
+      "studyType": "B.Sc.",
+      "startDate": "2019-09",
+      "endDate": "2023-06",
+      "location": "Shahrood, Iran",
+      "thesis": "Design Real Time Face Recognition Systems Based on LBP Features on Odroid-XU4 Embedded Computer Board",
+      "supervisor": "Prof. Alireza Ahmadyfard",
+      "supervisorUrl": "https://scholar.google.com/citations?user=o7-0hSEAAAAJ&hl=en",
+      "score": "3.4 / 4.0"
     }
   ],
-  "skills": [],
-  "languages": [],
-  "interests": [],
-  "references": [],
+  "work": [
+    {
+      "name": "EPSRC Research Fellow",
+      "position": "Research Assistant",
+      "location": "Brighton, UK",
+      "startDate": "2026-09",
+      "endDate": ""
+    },
+    {
+      "name": "Digital System Design Automation Laboratory",
+      "position": "Research Assistant",
+      "location": "Tehran, Iran",
+      "startDate": "2023-08",
+      "endDate": "2026-06"
+    },
+    {
+      "name": "D3H-Group",
+      "position": "Biomedical Signal Processing Developer",
+      "location": "Abu Dhabi, UAE",
+      "startDate": "2023-06",
+      "endDate": "2023-09",
+      "url": "https://d3h-group.com/"
+    },
+    {
+      "name": "Radan Electronic",
+      "position": "Embedded Software Developer",
+      "location": "Mashhad, Iran",
+      "startDate": "2022-05",
+      "endDate": "2022-08",
+      "url": "https://www.linkedin.com/company/radan-electronics/"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Direct Admission",
+      "summary": "Direct Admission for Master’s Degree at Amirkabir University of Technology (Tehran Polytechnic)."
+    },
+    {
+      "title": "Ranked 2nd (Top 1%)",
+      "date": "2023",
+      "summary": "Ranked 2nd (Top 1%) in the Department of Electrical Engineering at Shahrood University of Technology among 120+ students."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming",
+      "keywords": [
+        "C",
+        "C++",
+        "Rust",
+        "Java",
+        "Python",
+        "MATLAB"
+      ]
+    },
+    {
+      "name": "Hardware and parallel computing",
+      "keywords": [
+        "VHDL",
+        "Verilog",
+        "HLS",
+        "SystemC",
+        "NVIDIA CUDA",
+        "OpenMP"
+      ]
+    },
+    {
+      "name": "Machine learning",
+      "keywords": [
+        "PyTorch",
+        "TensorFlow",
+        "Keras",
+        "Scikit-learn",
+        "OpenCV",
+        "NumPy",
+        "Pandas"
+      ]
+    },
+    {
+      "name": "FPGA and embedded development",
+      "keywords": [
+        "Xilinx Vivado",
+        "Vitis HLS",
+        "Vitis AI",
+        "FINN",
+        "Xilinx ISE",
+        "ModelSim",
+        "IAR",
+        "Keil",
+        "CubeMX",
+        "Altium Designer",
+        "KiCad",
+        "Spice",
+        "Arduino IDE"
+      ]
+    },
+    {
+      "name": "Development and scientific tools",
+      "keywords": [
+        "Git",
+        "GitLab",
+        "Docker",
+        "MATLAB",
+        "Gem5"
+      ]
+    },
+    {
+      "name": "Operating systems",
+      "keywords": [
+        "Linux",
+        "Microsoft Windows"
+      ]
+    },
+    {
+      "name": "Typesetting and writing",
+      "keywords": [
+        "TeX",
+        "LaTeX",
+        "Vim",
+        "Microsoft Word",
+        "Gnuplot"
+      ]
+    }
+  ],
+  "interests": [
+    {
+      "name": "Computational Neuroscience & Neuromorphic Computing"
+    },
+    {
+      "name": "AI Hardware Accelerators & Reconfigurable Computing"
+    },
+    {
+      "name": "Low-Precision POSIT Arithmetic"
+    },
+    {
+      "name": "High-Level Synthesis (HLS) & SystemC"
+    },
+    {
+      "name": "Parallel & Distributed Systems"
+    },
+    {
+      "name": "Real-Time & Embedded Systems"
+    }
+  ],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "http://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "Edge Deployment of Quantized Transformer Models for Remaining Useful Life Prediction",
+      "publisher": "The 34th International Conference on Electrical Engineering (ICEE 2026)",
+      "releaseDate": "2026",
+      "url": "https://doi.org/10.1109/ICEE70628.2026.11710400"
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "http://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "Low-Precision POSIT Arithmetic for Spiking Neural Networks with Kahan Summation",
+      "publisher": "The 11th International Conference on Signal Processing and Intelligent Systems (ICSPIS 2025)",
+      "releaseDate": "2025",
+      "url": "https://doi.org/10.1109/ICSPIS68676.2025.11551780"
     }
   ],
-  "presentations": [
+  "projects": [
     {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
+      "name": "FPGA Implementation of Logic Locking in Deep Neural Networks",
+      "url": ""
     },
     {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
+      "name": "Research-Oriented SystemC Examples",
+      "url": "https://github.com/rezaAdinepour/systrmC-examples.git"
     },
     {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
+      "name": "Algorithm Acceleration on HBM-PIM Architecture using PIMSimulator",
+      "url": "https://github.com/M-Sc-AUT/M.Sc-Computer-Architecture/tree/main/Memory%20Technologies/Project"
     },
     {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
+      "name": "FPGA-Based Implementation of CNN Using High Level Synthesis (HLS)",
+      "url": "https://github.com/rezaAdinepour/CNN-on-FPGA.git"
+    },
+    {
+      "name": "Edge Detector HW/SW Co-design on FPGA",
+      "url": "https://github.com/rezaAdinepour/Edge-Detector-Co-Design.git"
+    },
+    {
+      "name": "HLS-Based Implementation of Vision Transformer (ViT)",
+      "url": "https://github.com/rezaAdinepour/ViT.git"
+    },
+    {
+      "name": "FPGA-Based Implementation of Neural Network",
+      "url": "https://github.com/rezaAdinepour/FPGA-Based-Implementation-of-Neural-Network.git"
     }
   ],
   "teaching": [
     {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
+      "course": "G5035: Compilers and Computer Architecture",
+      "institution": "University of Sussex",
+      "location": "Brighton, UK",
+      "term": "Fall 2026",
+      "role": "Teaching Assistant"
     },
     {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
+      "course": "CSE304: Operating System Lab",
+      "institution": "Amirkabir University of Technology (Tehran Polytechnic)",
+      "location": "Tehran, Iran",
+      "term": "Fall 2025",
+      "role": "Teaching Assistant"
+    },
+    {
+      "course": "CSE112: Computer Architecture Lab",
+      "institution": "Amirkabir University of Technology (Tehran Polytechnic)",
+      "location": "Tehran, Iran",
+      "term": "Spring 2025",
+      "role": "Teaching Assistant"
+    },
+    {
+      "course": "CSE105: Logic Circuit Lab",
+      "institution": "Amirkabir University of Technology (Tehran Polytechnic)",
+      "location": "Tehran, Iran",
+      "term": "Spring 2024 and Fall 2023",
+      "role": "Teaching Assistant"
+    },
+    {
+      "course": "CE243: Digital Electronics",
+      "institution": "Amirkabir University of Technology (Tehran Polytechnic)",
+      "location": "Tehran, Iran",
+      "term": "Fall 2025",
+      "role": "Teaching Assistant"
+    },
+    {
+      "course": "CE5439: Embedded Systems Design & Modeling",
+      "institution": "Amirkabir University of Technology (Tehran Polytechnic)",
+      "location": "Tehran, Iran",
+      "term": "Spring 2025",
+      "role": "Teaching Assistant"
+    },
+    {
+      "course": "CE201: Digital Logic Design",
+      "institution": "Amirkabir University of Technology (Tehran Polytechnic)",
+      "location": "Tehran, Iran",
+      "term": "Fall 2024",
+      "role": "Teaching Assistant"
+    },
+    {
+      "course": "Digital Electronics (Pulse Technique)",
+      "institution": "Shahrood University of Technology",
+      "location": "Shahrood, Iran",
+      "term": "Spring 2023",
+      "role": "Teaching Assistant"
+    },
+    {
+      "course": "Signals and Systems",
+      "institution": "Shahrood University of Technology",
+      "location": "Shahrood, Iran",
+      "term": "Fall 2021 – Spring 2023",
+      "role": "Teaching Assistant"
+    },
+    {
+      "course": "Analog Electronics",
+      "institution": "Shahrood University of Technology",
+      "location": "Shahrood, Iran",
+      "term": "Fall 2022",
+      "role": "Teaching Assistant"
+    },
+    {
+      "course": "Circuit Theory",
+      "institution": "Shahrood University of Technology",
+      "location": "Shahrood, Iran",
+      "term": "Fall 2020 – Spring 2021",
+      "role": "Teaching Assistant"
+    },
+    {
+      "course": "PCB Design & Hardware: Private Altium Designer Tutor",
+      "institution": "Private Tutoring",
+      "location": "Shahrood, Iran",
+      "term": "",
+      "role": "Private Tutor"
+    },
+    {
+      "course": "Software & Scientific Computing: Private Tutor for Python, MATLAB, C, and C++ Programming",
+      "institution": "Private Tutoring",
+      "location": "Mashhad, Iran",
+      "term": "",
+      "role": "Private Tutor"
     }
   ],
-  "portfolio": [
-    {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
-    }
-  ]
+  "languages": [],
+  "references": []
 }
