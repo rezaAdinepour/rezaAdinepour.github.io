@@ -42,11 +42,6 @@ author_profile: true
 - **{{ item.course }}** — {{ item.role }}, {{ item.institution }}{% if item.term != '' %}, {{ item.term }}{% endif %}.
 {% endfor %}
 
-## Projects
-{% for item in cv.projects %}
-- {% if item.url != '' %}[{{ item.name }}]({{ item.url }}){% else %}{{ item.name }}{% endif %}
-{% endfor %}
-
 ## Research interests
 {% for item in cv.interests %}
 - {{ item.name }}

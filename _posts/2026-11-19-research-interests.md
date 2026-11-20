@@ -27,4 +27,4 @@ and my B.Sc. in Electrical Engineering from [Shahrood University of Technology](
 - Parallel & Distributed Systems
 - Real-Time & Embedded Systems
 
-[Publications](/publications/) · [Projects](/portfolio/) · [Teaching](/teaching/)
+[Publications](/publications/) · [Teaching](/teaching/)

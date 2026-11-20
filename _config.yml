@@ -97,7 +97,7 @@ breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : true
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
-talkmap_link : true
+talkmap_link : false
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
@@ -193,6 +193,17 @@ exclude:
   - EDITING.md
   - UPSTREAM.md
   - AGENTS.md
+  # Keep these optional sections in the repository without publishing them.
+  - _portfolio
+  - _talks
+  - _pages/portfolio.html
+  - _pages/talks.html
+  - _pages/talkmap.html
+  - _pages/markdown.md
+  - talkmap
+  - talkmap.py
+  - talkmap.ipynb
+  - talkmap_out.ipynb
   - tmp
   - vendor
 keep_files:
@@ -232,10 +243,10 @@ collections:
     output: true
     permalink: /:collection/:path/
   portfolio:
-    output: true
+    output: false
     permalink: /:collection/:path/
   talks:
-    output: true
+    output: false
     permalink: /:collection/:path/
 
 
